@@ -9,6 +9,10 @@ export const analyticsConfig: AnalyticsConfig = {
 	vercelAnalytics: {
 		enabled: true,
 	},
+	// Vercel Speed Insights（采集真实用户的 Core Web Vitals，仅 Vercel 部署生效）
+	vercelSpeedInsights: {
+		enabled: true,
+	},
 	// Umami 统计配置
 	umamiAnalytics: {
 		// Umami Website ID

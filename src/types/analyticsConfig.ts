@@ -4,6 +4,9 @@ export type AnalyticsConfig = {
 	vercelAnalytics?: {
 		enabled?: boolean; // 是否启用 Vercel Analytics，仅在 Vercel 部署上生效
 	};
+	vercelSpeedInsights?: {
+		enabled?: boolean; // 是否启用 Vercel Speed Insights，仅在 Vercel 部署上生效
+	};
 	umamiAnalytics?: {
 		websiteId?: string; // Umami Website ID
 		scriptUrl?: string; // Umami JS地址，支持使用自建
