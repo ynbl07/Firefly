@@ -5,6 +5,10 @@ export const analyticsConfig: AnalyticsConfig = {
 	googleAnalyticsId: "",
 	// Microsoft Clarity ID
 	microsoftClarityId: "y8h6h5vmf3",
+	// Vercel Analytics（脚本由 Vercel 平台注入，仅 Vercel 部署生效）
+	vercelAnalytics: {
+		enabled: true,
+	},
 	// Umami 统计配置
 	umamiAnalytics: {
 		// Umami Website ID
